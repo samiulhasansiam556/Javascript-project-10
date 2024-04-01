@@ -1,0 +1,32 @@
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    width: 250px;
+    padding: 33px;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 50px auto;
+    border-radius: 3px;
+  
+}
+
+
+input{
+    width: 170px;
+    padding: 8px;
+    border: 2px solid green;
+    outline: none;
+}
+button{
+    width: 60px;
+    height: 35px;
+    background-color:black;
+    color: aliceblue;
+    border-radius: 2px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

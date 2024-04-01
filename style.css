@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(25, 219, 219);
+}
+
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 50px auto;
+    border-radius: 3px;
+  
+}
+.inputs{
+    display: flex;
+    gap: 8px;
+}
+
+
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid green;
+    outline: none;
+}
+button{
+    width: 60px;
+    height: 35px;
+    background-color:black;
+    color: aliceblue;
+    border-radius: 2px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(42, 161, 46);
+    color: #120404; 
+}
+
+.text ul{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    padding: 9px;
+}
+
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
